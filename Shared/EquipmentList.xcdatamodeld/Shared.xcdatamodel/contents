@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20E232" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="ELCategory" representedClassName="ELCategory" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryName" attributeType="String" defaultValueString=""/>
+        <attribute name="icon" attributeType="String" defaultValueString=""/>
+        <relationship name="eqInfo" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ELEqInfo" inverseName="categories" inverseEntity="ELEqInfo"/>
+    </entity>
+    <entity name="ELEqInfo" representedClassName="ELEqInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="comment" attributeType="String" defaultValueString=""/>
+        <attribute name="date" attributeType="Date" defaultDateTimeInterval="640712220" usesScalarValueType="NO"/>
+        <attribute name="isAvailable" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="modelName" attributeType="String" defaultValueString=""/>
+        <attribute name="photo" optional="YES" attributeType="Binary"/>
+        <attribute name="serialNumber" attributeType="String" defaultValueString=""/>
+        <relationship name="categories" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ELCategory" inverseName="eqInfo" inverseEntity="ELCategory"/>
+    </entity>
+    <elements>
+        <element name="ELCategory" positionX="-641.03515625" positionY="-15.8515625" width="128" height="88"/>
+        <element name="ELEqInfo" positionX="-333.62890625" positionY="94.359375" width="128" height="134"/>
+    </elements>
+</model>
