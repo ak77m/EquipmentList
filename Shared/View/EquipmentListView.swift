@@ -25,8 +25,8 @@ struct EquipmentListView: View {
                 ForEach(equipmentList.equipments, id: \.id) { equipment in
                     EquipmentCellView(equipment: equipment)
                 }.onDelete(perform: deleteItem)
-                
             }
+
             
             
             

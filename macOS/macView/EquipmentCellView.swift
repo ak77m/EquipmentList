@@ -30,7 +30,7 @@ struct EquipmentCellView: View {
             }
             .padding(.trailing)
             
-            
+            //AsyncImage(url: <#T##URL?#>)
             Spacer()
             
             Image(nsImage: equipment.photo)

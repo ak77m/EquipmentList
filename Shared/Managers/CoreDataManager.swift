@@ -30,7 +30,7 @@ class CoreDataManager {
         
         persistentContainer.loadPersistentStores { (description, error) in
             if let error = error {
-                fatalError("Failed to initialize Core Data \(error)")
+                fatalError("Failed to initialise Core Data \(error)")
             }
         }
         

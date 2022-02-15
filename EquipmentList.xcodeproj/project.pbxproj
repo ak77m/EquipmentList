@@ -12,8 +12,8 @@
 		FF0DF1002648035200EE5322 /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0DF0FF2648035200EE5322 /* PhotoCaptureView.swift */; };
 		FF0E7D37263FE1E90000644D /* AddEquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0E7D36263FE1E90000644D /* AddEquipmentView.swift */; };
 		FF0E7D38263FE1E90000644D /* AddEquipmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0E7D36263FE1E90000644D /* AddEquipmentView.swift */; };
-		FF0E7D3A2643385D0000644D /* AddEqupmentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0E7D392643385D0000644D /* AddEqupmentVM.swift */; };
-		FF0E7D3B2643385D0000644D /* AddEqupmentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0E7D392643385D0000644D /* AddEqupmentVM.swift */; };
+		FF0E7D3A2643385D0000644D /* AddEquipmentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0E7D392643385D0000644D /* AddEquipmentVM.swift */; };
+		FF0E7D3B2643385D0000644D /* AddEquipmentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0E7D392643385D0000644D /* AddEquipmentVM.swift */; };
 		FF0E7D3F2647C34A0000644D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0E7D3E2647C34A0000644D /* CloudKit.framework */; };
 		FF0E7D412647CA5C0000644D /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0E7D402647CA5C0000644D /* CloudKit.framework */; };
 		FF2BB38C264B146A0017656E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2BB38B264B14600017656E /* Assets.xcassets */; };
@@ -40,12 +40,10 @@
 		FF848FF3263C6ECA00731811 /* EquipmentListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF848FF1263C6ECA00731811 /* EquipmentListVM.swift */; };
 		FF848FF5263C70A500731811 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF848FF4263C70A500731811 /* Date+Extensions.swift */; };
 		FF848FF6263C70A500731811 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF848FF4263C70A500731811 /* Date+Extensions.swift */; };
+		FF9B21B027896FDE00905171 /* EquipmentListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9B21AE27896FC900905171 /* EquipmentListApp.swift */; };
 		FFF762C526307AFB001AE4F1 /* EquipmentList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFF762AF26307AFA001AE4F1 /* EquipmentList.xcdatamodeld */; };
 		FFF762C626307AFB001AE4F1 /* EquipmentList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FFF762AF26307AFA001AE4F1 /* EquipmentList.xcdatamodeld */; };
 		FFF762C726307AFB001AE4F1 /* EquipmentListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF762B126307AFA001AE4F1 /* EquipmentListApp.swift */; };
-		FFF762C826307AFB001AE4F1 /* EquipmentListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF762B126307AFA001AE4F1 /* EquipmentListApp.swift */; };
-		FFF762CB26307AFB001AE4F1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF762B326307AFA001AE4F1 /* Persistence.swift */; };
-		FFF762CC26307AFB001AE4F1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF762B326307AFA001AE4F1 /* Persistence.swift */; };
 		FFF762CD26307AFB001AE4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFF762B426307AFB001AE4F1 /* Assets.xcassets */; };
 		FFF762F62630989C001AE4F1 /* CategoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF762F52630989C001AE4F1 /* CategoryCellView.swift */; };
 		FFF762F72630989C001AE4F1 /* CategoryCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF762F52630989C001AE4F1 /* CategoryCellView.swift */; };
@@ -59,7 +57,7 @@
 		FF0DF0FD264802BD00EE5322 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FF0DF0FF2648035200EE5322 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureView.swift; sourceTree = "<group>"; };
 		FF0E7D36263FE1E90000644D /* AddEquipmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEquipmentView.swift; sourceTree = "<group>"; };
-		FF0E7D392643385D0000644D /* AddEqupmentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEqupmentVM.swift; sourceTree = "<group>"; };
+		FF0E7D392643385D0000644D /* AddEquipmentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEquipmentVM.swift; sourceTree = "<group>"; };
 		FF0E7D3C2647C2F60000644D /* EquipmentList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EquipmentList.entitlements; sourceTree = "<group>"; };
 		FF0E7D3E2647C34A0000644D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.5.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		FF0E7D402647CA5C0000644D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
@@ -77,9 +75,9 @@
 		FF848FED263C415800731811 /* View+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		FF848FF1263C6ECA00731811 /* EquipmentListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentListVM.swift; sourceTree = "<group>"; };
 		FF848FF4263C70A500731811 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		FF9B21AE27896FC900905171 /* EquipmentListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentListApp.swift; sourceTree = "<group>"; };
 		FFF762B026307AFA001AE4F1 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		FFF762B126307AFA001AE4F1 /* EquipmentListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentListApp.swift; sourceTree = "<group>"; };
-		FFF762B326307AFA001AE4F1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FFF762B426307AFB001AE4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFF762B926307AFB001AE4F1 /* EquipmentList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EquipmentList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF762BC26307AFB001AE4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,13 +168,10 @@
 		FFF762AE26307AFA001AE4F1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				FFF762B126307AFA001AE4F1 /* EquipmentListApp.swift */,
 				FFF762AF26307AFA001AE4F1 /* EquipmentList.xcdatamodeld */,
-				FF848FF0263C416600731811 /* Extensions */,
 				FF848FDA2639BF9100731811 /* Managers */,
 				FFF762D9263083A0001AE4F1 /* Model */,
 				FFF763042630B087001AE4F1 /* ViewModel */,
-				FFF762EF2630983B001AE4F1 /* Persistence */,
 				FFF762F22630987F001AE4F1 /* View */,
 			);
 			path = Shared;
@@ -194,6 +189,7 @@
 		FFF762BB26307AFB001AE4F1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FFF762B126307AFA001AE4F1 /* EquipmentListApp.swift */,
 				FF0DF0FD264802BD00EE5322 /* ImagePicker.swift */,
 				FF2BB38D264B164D0017656E /* iosView */,
 				FFF762BC26307AFB001AE4F1 /* Info.plist */,
@@ -205,6 +201,7 @@
 		FFF762C226307AFB001AE4F1 /* macOS */ = {
 			isa = PBXGroup;
 			children = (
+				FF9B21AE27896FC900905171 /* EquipmentListApp.swift */,
 				FF4E08AD264D764F005F0AC5 /* NSImage.swift */,
 				FF78F8BF264C2E560074560F /* macView */,
 				FFF762C326307AFB001AE4F1 /* Info.plist */,
@@ -225,14 +222,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FFF762EF2630983B001AE4F1 /* Persistence */ = {
-			isa = PBXGroup;
-			children = (
-				FFF762B326307AFA001AE4F1 /* Persistence.swift */,
-			);
-			path = Persistence;
-			sourceTree = "<group>";
-		};
 		FFF762F22630987F001AE4F1 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +230,7 @@
 				FFF763072630B14F001AE4F1 /* AddCategoryView.swift */,
 				FF848FEA263AD61400731811 /* EquipmentListView.swift */,
 				FF0E7D36263FE1E90000644D /* AddEquipmentView.swift */,
+				FF848FF0263C416600731811 /* Extensions */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,7 +240,7 @@
 			children = (
 				FF848FE42639C1D900731811 /* CategoryListVM.swift */,
 				FF848FF1263C6ECA00731811 /* EquipmentListVM.swift */,
-				FF0E7D392643385D0000644D /* AddEqupmentVM.swift */,
+				FF0E7D392643385D0000644D /* AddEquipmentVM.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -363,13 +353,12 @@
 				FF848FD82639BF7200731811 /* BaseModel.swift in Sources */,
 				FF0E7D37263FE1E90000644D /* AddEquipmentView.swift in Sources */,
 				FFF762F62630989C001AE4F1 /* CategoryCellView.swift in Sources */,
-				FFF762CB26307AFB001AE4F1 /* Persistence.swift in Sources */,
 				FF848FE82639D54800731811 /* CategoryListView.swift in Sources */,
 				FF848FDF2639C03D00731811 /* ELCategory+Extensions.swift in Sources */,
 				FF848FF2263C6ECA00731811 /* EquipmentListVM.swift in Sources */,
 				FF848FF5263C70A500731811 /* Date+Extensions.swift in Sources */,
 				FF848FE22639C0AA00731811 /* ELEqInfo+Extensions.swift in Sources */,
-				FF0E7D3A2643385D0000644D /* AddEqupmentVM.swift in Sources */,
+				FF0E7D3A2643385D0000644D /* AddEquipmentVM.swift in Sources */,
 				FFF762C526307AFB001AE4F1 /* EquipmentList.xcdatamodeld in Sources */,
 				FF78F8C1264C2E6F0074560F /* EquipmentCellView.swift in Sources */,
 				FF848FDC2639BFB000731811 /* CoreDataManager.swift in Sources */,
@@ -387,24 +376,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF848FE62639C1D900731811 /* CategoryListVM.swift in Sources */,
-				FFF762C826307AFB001AE4F1 /* EquipmentListApp.swift in Sources */,
 				FF848FD92639BF7200731811 /* BaseModel.swift in Sources */,
 				FF0E7D38263FE1E90000644D /* AddEquipmentView.swift in Sources */,
 				FF4E08AE264D764F005F0AC5 /* NSImage.swift in Sources */,
 				FFF762F72630989C001AE4F1 /* CategoryCellView.swift in Sources */,
-				FFF762CC26307AFB001AE4F1 /* Persistence.swift in Sources */,
 				FF848FE92639D54800731811 /* CategoryListView.swift in Sources */,
 				FF848FE02639C03D00731811 /* ELCategory+Extensions.swift in Sources */,
 				FF848FF3263C6ECA00731811 /* EquipmentListVM.swift in Sources */,
 				FF848FF6263C70A500731811 /* Date+Extensions.swift in Sources */,
 				FF848FE32639C0AA00731811 /* ELEqInfo+Extensions.swift in Sources */,
-				FF0E7D3B2643385D0000644D /* AddEqupmentVM.swift in Sources */,
+				FF0E7D3B2643385D0000644D /* AddEquipmentVM.swift in Sources */,
 				FFF762C626307AFB001AE4F1 /* EquipmentList.xcdatamodeld in Sources */,
 				FF2BB391264B17130017656E /* EquipmentCellView.swift in Sources */,
 				FF848FDD2639BFB000731811 /* CoreDataManager.swift in Sources */,
 				FFF763012630AF04001AE4F1 /* IconSet.swift in Sources */,
 				FF2BB38E264B16B30017656E /* EquipmentListView.swift in Sources */,
 				FF848FEF263C415800731811 /* View+Extensions.swift in Sources */,
+				FF9B21B027896FDE00905171 /* EquipmentListApp.swift in Sources */,
 				FFF763092630B14F001AE4F1 /* AddCategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

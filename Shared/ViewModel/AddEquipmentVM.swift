@@ -15,7 +15,7 @@
 import CoreData
 
 
-class AddEqupmentVM: ObservableObject {
+class AddEquipmentVM: ObservableObject {
     
     var modelName: String = ""
     var serialNumber: String = ""
@@ -43,5 +43,7 @@ class AddEqupmentVM: ObservableObject {
         }
         
     }
+    
+    
     
 }

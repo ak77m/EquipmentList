@@ -10,6 +10,7 @@ import SwiftUI
 struct CategoryListView: View {
     @StateObject private var categoryListVM = CategoryListVM()
     @State private var addCategorySheet: Bool = false
+    @State private var codeScannerSheet: Bool = false
     @State var selection: CategoryVM? = nil
     
     var body: some View {
@@ -55,8 +56,15 @@ struct CategoryListView: View {
             }
             .listStyle(PlainListStyle())
             .padding(.horizontal)
-            
+          
             .toolbar {
+                
+                Button(action: { codeScannerSheet = true }) {
+                    Image(systemName: "qrcode.viewfinder")
+                        .font(.title3)
+                }
+                
+                Divider()
                 
                 Button(action: { addCategorySheet = true }) {
                     Image(systemName: "folder.badge.plus")

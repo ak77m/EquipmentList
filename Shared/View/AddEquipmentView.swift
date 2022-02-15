@@ -10,8 +10,9 @@ import SwiftUI
 struct AddEquipmentView: View {
     
     @Environment(\.presentationMode) var presentationMode // Реализация возврата по кнопке
+    
     let category: CategoryVM
-    @StateObject private var equipmentVM = AddEqupmentVM()
+    @StateObject private var equipmentVM = AddEquipmentVM()
     
     // Photo Capture. Only for iOS
     @State private var showImagePicker: Bool = false
@@ -75,7 +76,6 @@ struct AddEquipmentView: View {
             .padding()
             .shadow(radius: 4, x: 4, y: 4)
             
-            //Spacer()
         }
         .sheet(isPresented: self.$showImagePicker, onDismiss: {
             

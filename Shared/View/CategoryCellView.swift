@@ -14,23 +14,28 @@ struct CategoryCellView: View {
     @State var categoryName: String
     
     var body: some View {
-        HStack{
-            Text(icon)
-                .font(.system(size: 60))
-            
-            Text(categoryName)
-                .font(.title)
-                .lineLimit(1)
-                .minimumScaleFactor(0.5)
-                .multilineTextAlignment(.center)
-            Spacer ()
+        ZStack {
+            HStack(alignment: .center, spacing: 15.0){
+                Text(icon)
+                    .font(.system(size: 60))
+                
+                Text(categoryName)
+                    .font(.title)
+                    .fontWeight(.heavy)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.5)
+                    .multilineTextAlignment(.center)
+                Spacer ()
+            }
+            .padding(.horizontal)
+            .frame(maxWidth: 280, maxHeight: 100)
+            .aspectRatio(1.0, contentMode: .fill)
+            .shadow(color: .black.opacity(0.5), radius: 4, x: 5, y: 5)
+        
         }
-        .padding()
-        .frame(maxWidth: 280, maxHeight: 100)
-        .aspectRatio(1.0, contentMode: .fill)
-        .background(Color.red)
-        .cornerRadius(8.0)
-        //.shadow(color: .white, radius: 4.0)
+        .background(LinearGradient(gradient: Gradient(colors: [Color.init(#colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)), Color.init(#colorLiteral(red: 0.3098039329, green: 0.01568627544, blue: 0.1294117719, alpha: 1))]), startPoint: .topTrailing, endPoint: .bottomLeading))
+        .cornerRadius(15.0)
+        
     }
 }
 
