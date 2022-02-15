@@ -16,20 +16,12 @@ struct EquipmentListView: View {
     
     
     var body: some View {
-        
-        
-        
         List {
-        
             Section(header: Text("Раздел \(category.categoryName)")) {
                 ForEach(equipmentList.equipments, id: \.id) { equipment in
                     EquipmentCellView(equipment: equipment)
                 }.onDelete(perform: deleteItem)
             }
-
-            
-            
-            
         }.listStyle(PlainListStyle())
        
         .toolbar {

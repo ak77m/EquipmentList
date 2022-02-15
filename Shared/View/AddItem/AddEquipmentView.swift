@@ -77,6 +77,7 @@ struct AddEquipmentView: View {
             .shadow(radius: 4, x: 4, y: 4)
             
         }
+        .macStyle(width: 1000)
         .sheet(isPresented: self.$showImagePicker, onDismiss: {
             
         }) {

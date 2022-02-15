@@ -20,29 +20,18 @@ class CategoryListVM: ObservableObject {
     }
     
     func getAllCategories() {
-        DispatchQueue.main.async {
+     //   DispatchQueue.main.async {
             self.categories = ELCategory.all().map(CategoryVM.init)
-        }
+      //  }
     }
     
 }
 
 struct CategoryVM {
-    
     let category: ELCategory
-    
-    var categoryId: NSManagedObjectID {
-        return category.objectID
-    }
-    
-    var categoryName: String {
-        return category.categoryName ?? ""
-    }
-    
-    var icon: String {
-        return category.icon ?? ""
-    }
-    
+    var categoryId: NSManagedObjectID { category.objectID }
+    var categoryName: String { category.categoryName ?? "" }
+    var icon: String { category.icon ?? "" }
 }
 
 // MARK: - VM for new record in ELCategory 

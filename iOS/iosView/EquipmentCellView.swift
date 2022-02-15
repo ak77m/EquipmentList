@@ -10,22 +10,15 @@ import SwiftUI
 struct EquipmentCellView: View {
     let equipment: EquipmentVM
     
-    @State private var isAvailable = true
     var body: some View {
         VStack(alignment: .leading, spacing: 7) {
             
-            HStack{
-                VStack(alignment: .leading) {
-                    Text("Модель : \(equipment.modelName)")
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    
-                    Text("S/N : \(equipment.serialNumber)")
-                }
+            VStack(alignment: .leading) {
+                Text("Модель : \(equipment.modelName)")
+                    .font(.title2)
+                    .fontWeight(.bold)
                 
-                Spacer()
-                
-                Toggle("", isOn: $isAvailable)
+                Text("S/N : \(equipment.serialNumber)")
             }
             .padding(.trailing)
             
@@ -33,10 +26,10 @@ struct EquipmentCellView: View {
             
             Image(uiImage: equipment.photo)
                 .resizable()
+                .aspectRatio(contentMode: .fit)
                 .frame(width: 300, height: 300, alignment: .center)
         }
         .padding(.horizontal)
-        //.frame(minWidth: 400, maxWidth: .infinity)
     }
 }
 

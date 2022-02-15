@@ -58,7 +58,6 @@ struct CategoryListView: View {
             .padding(.horizontal)
           
             .toolbar {
-                
                 Button(action: { codeScannerSheet = true }) {
                     Image(systemName: "qrcode.viewfinder")
                         .font(.title3)

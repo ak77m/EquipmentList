@@ -113,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF01D22227BC3B5E00FA85D0 /* AddItem */ = {
+			isa = PBXGroup;
+			children = (
+				FFF763072630B14F001AE4F1 /* AddCategoryView.swift */,
+				FF0E7D36263FE1E90000644D /* AddEquipmentView.swift */,
+			);
+			path = AddItem;
+			sourceTree = "<group>";
+		};
 		FF0E7D3D2647C34A0000644D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +186,7 @@
 				FFF762D9263083A0001AE4F1 /* Model */,
 				FFF763042630B087001AE4F1 /* ViewModel */,
 				FFF762F22630987F001AE4F1 /* View */,
+				FF848FF0263C416600731811 /* Extensions */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -230,11 +240,9 @@
 			isa = PBXGroup;
 			children = (
 				FF848FE72639D54800731811 /* CategoryListView.swift */,
-				FFF762F52630989C001AE4F1 /* CategoryCellView.swift */,
-				FFF763072630B14F001AE4F1 /* AddCategoryView.swift */,
 				FF848FEA263AD61400731811 /* EquipmentListView.swift */,
-				FF0E7D36263FE1E90000644D /* AddEquipmentView.swift */,
-				FF848FF0263C416600731811 /* Extensions */,
+				FFF762F52630989C001AE4F1 /* CategoryCellView.swift */,
+				FF01D22227BC3B5E00FA85D0 /* AddItem */,
 			);
 			path = View;
 			sourceTree = "<group>";

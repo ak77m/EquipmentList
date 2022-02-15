@@ -10,7 +10,7 @@ import Cocoa
 typealias UIImage = NSImage
 
 // To use NSImage as UIImage
-// This lifehack works only with simple tasks
+// This solution works only with simple tasks
 
 extension NSImage {
     var cgImage: CGImage? {
@@ -21,9 +21,6 @@ extension NSImage {
                        hints: nil)
     }
 
-//    convenience init?(named name: String) {
-//        self.init(named: Name(name))
-//   }
 }
 
 

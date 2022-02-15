@@ -10,9 +10,9 @@ import SwiftUI
 @main
 struct EquipmentListApp: App {
     
-    //    init() {
-    //        UITableView.appearance().separatorStyle = .none
-    //    }
+//        init() {
+//            UITableView.appearance().separatorStyle = .none
+//        }
     
     var body: some Scene {
         WindowGroup {

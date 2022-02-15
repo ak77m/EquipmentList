@@ -46,6 +46,10 @@ struct EquipmentVM {
             return equipment.objectID
     }
     
+    var dateUpdate: String {
+        return equipment.date?.asFormattedString() ?? ""
+    }
+    
     var modelName: String {
         return equipment.modelName ?? ""
     }

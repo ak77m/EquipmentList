@@ -10,39 +10,27 @@ import SwiftUI
 struct EquipmentCellView: View {
     let equipment: EquipmentVM
     
-    @State private var isAvailable = true
     var body: some View {
         HStack {
-            Toggle("", isOn: $isAvailable)
-            
-            VStack (alignment: .leading, spacing: 15) {
-                VStack(alignment: .leading) {
+            VStack(alignment: .leading, spacing: 10.0) {
                     Text("Модель : \(equipment.modelName)")
                         .font(.title2)
                         .fontWeight(.bold)
                         .textCase(.uppercase)
-                    
-                    Text("S/N : \(equipment.serialNumber)")
+                    Text("Сер. номер : \(equipment.serialNumber)")
+                    Text("Дата обновления : \(equipment.dateUpdate)")
+                    Spacer()
+                    Text("Комментарий     : \(equipment.comment)")
                 }
-                //Spacer()
-                Text("Комментарий : \(equipment.comment)")
-               
-            }
-            .padding(.trailing)
-            
-            //AsyncImage(url: <#T##URL?#>)
+            .padding()
             Spacer()
-            
             Image(nsImage: equipment.photo)
                 .resizable()
-                .frame(width: 200, height: 200, alignment: .center)
-                
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 200, alignment: .center)
+                .cornerRadius(5)
+                .padding([.top, .bottom, .trailing])
         }
-        .padding(.leading)
-        .border(Color.gray, width: 1)
-        .cornerRadius(5)
-        .shadow(radius: 3)
-        //.frame(minWidth: 400, maxWidth: .infinity)
     }
 }
 
